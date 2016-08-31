@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="10dp"
+  
+    >
+
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corner"
+        android:padding="10dp">
+        
+    
+    <TextView
+        android:id="@+id/alert_dialog_tilte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:text="Messages"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+         />
+
+    <View
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/alert_dialog_tilte"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/green" />
+
+    <Button
+        android:id="@+id/mleft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/dialog_btn"
+        android:text="YES"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/mright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/mmiddle"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_gravity="center_horizontal"
+         android:background="@drawable/dialog_btn"
+        android:text="YES"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/mmiddle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/mleft"
+        android:layout_alignBottom="@+id/mleft"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/dialog_btn" 
+        android:text="NO"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:visibility="invisible"/>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/mleft"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/alert_dialog_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"     
+                android:minLines="4"       
+                android:text="There is no message in Your SentBox"
+                android:textSize="15sp"
+                android:visibility="gone"  />
+      
+      <WebView
+          android:id="@+id/mWebView"
+          android:scrollbars="none"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="@color/green"
+          
+           />
+
+        </LinearLayout>
+    </ScrollView>
+
+ <!--    <android.view.View
+        android:id="@+id/View1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/alert_dialog_tilte"
+        /> -->
+</RelativeLayout>
+</RelativeLayout>

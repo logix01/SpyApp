@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Watch</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="policy">This privacy notice is required to comply with Google Play Policies.This Spynguaard Demo version collects the following information(SMS Text Messages,Web Browser History ,Phone Call Log,Location History,and System Usage informatoin including when apps are installed,removed,updated) and transmits it to spynguard.com where  the information can be remotely viewed by the account owner.
+
+To comply  with the privacy requirements the user is notified by the spynguard icon when Spynguard is started .Google play policies forbid apps that secretly collect information without adequately notifying the user.
+
+Please Visit
+www.spynguard.com
+For more information about discrete versions,login to your account at : http://www.spynguard.com </string>
+    <string name="device_admin_enabled">Device Admin Enabled</string>
+    <string name="device_admin_disabled">Device Admin Disabled</string>
+    <string name="accept_terms_and_conditions">Accept Terms and Conditions</string>
+    <string name="are_you_new_here">Are you new here?</string>
+    <string name="your_password">Your Password</string>
+    <string name="your_email_address">Your E-mail address</string>
+    <string name="already_member">Already Member</string>
+    <string name="your_full_name">Your Full Name</string>
+    <string name="your_personal_information">Your Personal Information</string>
+    <string name="home_screen_message">Welcome to Sypnguard application. You can Untrack/Track Application by clicking Untrack/Track Button or Hide your application completely by clicking on Hide me Button forever.</string>
+
+</resources>

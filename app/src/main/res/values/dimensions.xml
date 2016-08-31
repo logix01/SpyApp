@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<dimen name="EditTextHeight">40dp</dimen>
+    <dimen name="corner_radius">3dp</dimen>
+    <dimen name="mHeaderHeight">40dp</dimen>
+    <dimen name="DialogHeight">320dp</dimen>
+      <dimen name="ConditionDialogHeight">300dp</dimen>
+    <dimen name="leftMargin">10dp</dimen>
+   
+</resources>

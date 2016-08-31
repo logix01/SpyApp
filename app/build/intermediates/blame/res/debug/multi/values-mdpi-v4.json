@@ -1,0 +1,121 @@
+[
+    {
+        "outputFile": "/home/nitesh/Amrit/SPYAPPLICATION/app/build/intermediates/res/merged/debug/values-mdpi-v4/values-mdpi-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 53,
+                    "endOffset": 104
+                },
+                "from": {
+                    "file": "/home/nitesh/Amrit/SPYAPPLICATION/app/src/main/res/values-mdpi/dimensions.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 231,
+                        "endColumn": 53,
+                        "endOffset": 280
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 109,
+                    "endColumn": 44,
+                    "endOffset": 149
+                },
+                "from": {
+                    "file": "/home/nitesh/Amrit/SPYAPPLICATION/app/src/main/res/values-mdpi/dimensions.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 186,
+                        "endColumn": 44,
+                        "endOffset": 226
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 154,
+                    "endColumn": 45,
+                    "endOffset": 195
+                },
+                "from": {
+                    "file": "/home/nitesh/Amrit/SPYAPPLICATION/app/src/main/res/values-mdpi/dimensions.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 0,
+                        "startOffset": 51,
+                        "endColumn": 41,
+                        "endOffset": 92
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 200,
+                    "endColumn": 43,
+                    "endOffset": 239
+                },
+                "from": {
+                    "file": "/home/nitesh/Amrit/SPYAPPLICATION/app/src/main/res/values-mdpi/dimensions.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 97,
+                        "endColumn": 43,
+                        "endOffset": 136
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 244,
+                    "endColumn": 41,
+                    "endOffset": 281
+                },
+                "from": {
+                    "file": "/home/nitesh/Amrit/SPYAPPLICATION/app/src/main/res/values-mdpi/dimensions.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 285,
+                        "endColumn": 41,
+                        "endOffset": 322
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 286,
+                    "endColumn": 44,
+                    "endOffset": 326
+                },
+                "from": {
+                    "file": "/home/nitesh/Amrit/SPYAPPLICATION/app/src/main/res/values-mdpi/dimensions.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 141,
+                        "endColumn": 44,
+                        "endOffset": 181
+                    }
+                }
+            }
+        ]
+    }
+]

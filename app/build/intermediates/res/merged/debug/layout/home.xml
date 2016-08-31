@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/bg_color">
+
+    <include
+        android:id="@+id/header_ref"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        layout="@layout/header" />
+
+     <ToggleButton
+        android:id="@+id/mUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="30dp" 
+        android:layout_marginRight="20dp"
+        android:textOff=""
+        android:textOn=""
+        android:background="@drawable/hide_me_btn"/>
+
+    <Button
+        android:id="@+id/mUnTrack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      
+        android:layout_alignBaseline="@+id/mUpdate"
+        android:layout_alignBottom="@+id/mUpdate"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/untrack_me_btn"  />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/mUpdate"
+        android:layout_alignLeft="@+id/mUnTrack"
+        android:layout_alignRight="@+id/mUpdate"
+        android:layout_marginBottom="15dp"
+        android:padding="5dp"
+        android:background="@drawable/txtfeild_for3rd_screen"
+        android:text="@string/home_screen_message" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mTrackingON"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/logo_on_home_screen" />
+
+<!--     <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView1"
+        android:layout_alignRight="@+id/imageView1"
+        android:layout_below="@+id/header_ref"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/ic_launcher" /> -->
+
+    <TextView
+        android:id="@+id/mTrackingON"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/header_ref"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/tracking_is_on" />
+
+</RelativeLayout>

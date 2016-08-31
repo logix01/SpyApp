@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <include
+        android:id="@+id/header_ref"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        layout="@layout/header" />
+
+    <ScrollView
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header_ref"
+        android:padding="16dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/textStyle"
+                android:text="Mobile Number:" />
+
+            <EditText
+                android:id="@+id/mob"
+                style="@style/editTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="To Get Sms Report"
+                android:inputType="phone" >
+            </EditText>
+
+            <TextView
+                style="@style/textStyle"
+                android:text="Email:" />
+
+            <EditText
+                android:id="@+id/email"
+                style="@style/editTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="To Get Email Report"
+                android:inputType="textEmailAddress" >
+            </EditText>
+
+            <TextView
+                style="@style/textStyle"
+                android:text="PIN Password:" />
+
+            <EditText
+                android:id="@+id/mPassword"
+                style="@style/editTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:maxLength="6"
+                android:hint="Enter PIN Password"
+                android:inputType="phone" >
+            </EditText>
+
+            <TextView
+                style="@style/textStyle"
+                android:text="PIN Confirm Password" />
+
+            <EditText
+                android:id="@+id/mConf_pass"
+                style="@style/editTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:maxLength="6"
+                android:hint="Confirm PIN Password"
+                android:inputType="phone" >
+            </EditText>
+
+            <Button
+                android:id="@+id/mRegister"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:background="@color/green"
+                android:text="Update Profile" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

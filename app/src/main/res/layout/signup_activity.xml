@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/registerParent"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/include1"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        layout="@layout/header" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/include1"
+        android:layout_margin="10dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="@string/your_personal_information"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/text_color"
+                android:textStyle="bold" />
+
+
+            <android.support.design.widget.TextInputLayout
+
+                android:id="@+id/fullname_text_input_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="27dp"
+                >
+
+            <EditText
+                android:id="@+id/mRegFullName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/user_register_screen"
+                android:ems="10"
+                android:hint="@string/your_full_name"
+                android:inputType="textPersonName"
+                android:paddingLeft="45dp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+
+                android:id="@+id/email_text_input_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="27dp"
+                >
+            <EditText
+                android:id="@+id/mRegEmailId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/email_register_screen"
+                android:ems="10"
+                android:hint="@string/your_email_address"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="45dp" />
+                </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="@string/your_password"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/text_color"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/mRegPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/pwd_registration_screen"
+                android:ems="10"               
+                android:inputType="textPassword"           
+                android:paddingLeft="40dp" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/mRegConfirmPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/pwd_registration_screen"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:paddingLeft="40dp" >
+            </EditText>
+               <LinearLayout
+                android:id="@+id/mRegCheckBoxCover"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+             
+            <CheckBox
+                android:id="@+id/mRegTerms"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                />
+
+            
+            <TextView
+                android:id="@+id/mRegShowTerms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="@string/accept_terms_and_conditions"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/text_color"
+                android:textStyle="italic" />
+            </LinearLayout>
+            
+
+
+            <Button
+                android:id="@+id/mRegisterButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/register_btn" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

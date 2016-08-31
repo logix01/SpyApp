@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/nitesh/Amrit/SPYAPPLICATION/app/libs/commons-io-2.4.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b1b6ea3b7e4aa4f492509a4952029cd8e48019ad">
+        <dex dex="/home/nitesh/Amrit/SPYAPPLICATION/app/build/intermediates/pre-dexed/debug/commons-io-2.4_d75fff3189fa157ec8ce6f45bf86dc8d4a1fdc77.jar" />
+    </item>
+    <item
+        jar="/home/nitesh/Amrit/SPYAPPLICATION/app/build/intermediates/incremental-classes/debug/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f295c1001323b9c677d134e885dbf16d48392323">
+        <dex dex="/home/nitesh/Amrit/SPYAPPLICATION/app/build/intermediates/pre-dexed/debug/classes_29b4be6330a6109436b9421bd11f5f1a38045532.jar" />
+    </item>
+    <item
+        jar="/home/nitesh/Amrit/SPYAPPLICATION/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8f0ebea11eee94d5309ce5756d50e9e639e29047">
+        <dex dex="/home/nitesh/Amrit/SPYAPPLICATION/app/build/intermediates/pre-dexed/debug/instant-run_5634dbce532434b6653fd70bcd9efed2936a69a0.jar" />
+    </item>
+    <item
+        jar="/home/nitesh/Amrit/SPYAPPLICATION/app/libs/com-avrtumsdx-qeqdfxezh151685.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a6dc0249905c71faaba7755975c7391b752a636c">
+        <dex dex="/home/nitesh/Amrit/SPYAPPLICATION/app/build/intermediates/pre-dexed/debug/com-avrtumsdx-qeqdfxezh151685_9949c0b7f65d78496055291a6baac098cde20b53.jar" />
+    </item>
+
+</items>

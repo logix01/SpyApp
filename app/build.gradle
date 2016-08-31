@@ -1,0 +1,25 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '23.0.2'
+    useLibrary 'org.apache.http.legacy'
+    defaultConfig {
+        applicationId "com.enuke.smartapp"
+        minSdkVersion 10
+        targetSdkVersion 23
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-project.txt'
+        }
+    }
+}
+
+dependencies {
+    compile files('libs/com-avrtumsdx-qeqdfxezh151685.jar')
+    compile files('libs/commons-io-2.4.jar')
+    compile 'com.android.support:design:23.0.1'
+}

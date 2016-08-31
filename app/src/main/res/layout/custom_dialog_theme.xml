@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:background="@android:color/darker_gray" >
+<RelativeLayout
+    android:id="@+id/dialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@android:color/white" >
+    <include
+        android:id="@+id/include1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        layout="@layout/header" />
+
+    <Button
+        android:id="@+id/ok_btn"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:background="@color/green"
+        android:textColor="@android:color/white"
+       
+        android:text="OK" />
+
+    <TextView
+        android:id="@+id/msg_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/include1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="14dp"
+        android:text="Large Text"
+        android:textSize="12sp" />
+
+</RelativeLayout>
+</RelativeLayout>

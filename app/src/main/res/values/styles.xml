@@ -1,0 +1,58 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Application theme. -->
+
+    <style name="AppTheme" parent="android:Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@drawable/app_background</item>
+        <item name="android:textViewStyle">@style/MyTextView</item>
+    </style>
+
+    <style name="MyTextView">
+        <item name="android:textColor">#000000</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="textStyle" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:textColor">#000000</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="editTextStyle" parent="@android:style/Widget.EditText">
+
+        <!-- <item name="android:focusable">true</item> -->
+        <item name="android:layout_height">@dimen/EditTextHeight</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/edit_text_style</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+<!-- header layout style  -->
+
+    <style name="headerStyletext" parent="MyTextView">
+        <item name="android:layout_marginLeft">27dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="mHeaderStyle">
+        <item name="android:background">@drawable/header_bar</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/mHeaderHeight</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+<!--Header layout style end  -->
+</resources>
